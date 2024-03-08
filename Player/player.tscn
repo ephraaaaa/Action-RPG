@@ -376,8 +376,8 @@ tracks/0/keys = {
 "values": [6, 7, 8, 9, 10, 6]
 }
 
-[sub_resource type="Animation" id="Animation_ts7tn"]
-resource_name = "roll_left"
+[sub_resource type="Animation" id="Animation_0mfa1"]
+resource_name = "roll_down"
 length = 0.4
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -389,7 +389,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
-"values": [50, 51, 52, 53]
+"values": [55, 56, 57, 58]
 }
 tracks/1/type = "method"
 tracks/1/imported = false
@@ -406,8 +406,8 @@ tracks/1/keys = {
 }]
 }
 
-[sub_resource type="Animation" id="Animation_mbsoj"]
-resource_name = "roll_up"
+[sub_resource type="Animation" id="Animation_ts7tn"]
+resource_name = "roll_left"
 length = 0.4
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -419,7 +419,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
-"values": [45, 46, 47, 48]
+"values": [50, 51, 52, 53]
 }
 tracks/1/type = "method"
 tracks/1/imported = false
@@ -466,8 +466,8 @@ tracks/1/keys = {
 }]
 }
 
-[sub_resource type="Animation" id="Animation_0mfa1"]
-resource_name = "roll_down"
+[sub_resource type="Animation" id="Animation_mbsoj"]
+resource_name = "roll_up"
 length = 0.4
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -479,7 +479,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
-"values": [55, 56, 57, 58]
+"values": [45, 46, 47, 48]
 }
 tracks/1/type = "method"
 tracks/1/imported = false

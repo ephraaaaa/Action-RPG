@@ -620,7 +620,7 @@ sources/0 = SubResource("TileSetAtlasSource_r7q0j")
 [node name="Background" type="Sprite2D" parent="."]
 texture_repeat = 2
 position = Vector2(160.494, 96)
-scale = Vector2(0.990722, 0.994819)
+scale = Vector2(0.990721, 0.994819)
 texture = ExtResource("1_r15o8")
 region_enabled = true
 region_rect = Rect2(0, 0, 322, 193)
