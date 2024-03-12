@@ -14,5 +14,3 @@ func _on_hurtbox_area_entered(area):
 	var direction = ( position - area.owner.position ).normalized()
 	knockback = direction * 100
 	#self.queue_free()
-
-	
