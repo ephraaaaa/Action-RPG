@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://bw5rg1j4l1nip"]
+[gd_scene load_steps=13 format=3 uid="uid://bw5rg1j4l1nip"]
 
 [ext_resource type="Texture2D" uid="uid://0id1q3rwyjio" path="res://World/GrassBackground.png" id="1_r15o8"]
 [ext_resource type="PackedScene" uid="uid://cwjeac4fuxw3n" path="res://Player/player.tscn" id="2_bwm6e"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://cj01y7s3bm68x" path="res://World/DirtTileset.png" id="2_jlom4"]
 [ext_resource type="Texture2D" uid="uid://bt4h73y4r3dds" path="res://World/CliffTileset.png" id="3_yvhuo"]
 [ext_resource type="PackedScene" uid="uid://cg0dpouxoduj5" path="res://World/grass.tscn" id="4_uk5jk"]
+[ext_resource type="PackedScene" uid="uid://b8acey41d3va2" path="res://Enemies/bat.tscn" id="7_kyhou"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v51b6"]
 texture = ExtResource("2_jlom4")
@@ -857,3 +858,21 @@ position = Vector2(128, 40)
 [node name="Player" parent="YSort" instance=ExtResource("2_bwm6e")]
 position = Vector2(184, 40)
 collision_layer = 2
+
+[node name="Bat" parent="YSort" instance=ExtResource("7_kyhou")]
+position = Vector2(80, 88)
+
+[node name="Bat6" parent="YSort" instance=ExtResource("7_kyhou")]
+position = Vector2(48, 88)
+
+[node name="Bat5" parent="YSort" instance=ExtResource("7_kyhou")]
+position = Vector2(176, 80)
+
+[node name="Bat2" parent="YSort" instance=ExtResource("7_kyhou")]
+position = Vector2(200, 168)
+
+[node name="Bat3" parent="YSort" instance=ExtResource("7_kyhou")]
+position = Vector2(240, 136)
+
+[node name="Bat4" parent="YSort" instance=ExtResource("7_kyhou")]
+position = Vector2(216, 104)
