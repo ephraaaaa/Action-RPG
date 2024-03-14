@@ -1,5 +1,4 @@
-res://world.tscn
-res://Player/player.tscn
 res://Enemies/bat.tscn
+res://Player/player.tscn
+res://world.tscn
 res://Enemies/bat.gd
-res://Player/Player.gd
